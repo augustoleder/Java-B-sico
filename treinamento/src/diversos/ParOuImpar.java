@@ -2,7 +2,11 @@ package diversos;
 
 import java.util.Scanner;
 
-public class parOuImpar {
+// Identifica se um número é par ou impar
+// Identifica se esse numero está ou não no intervalo de 0 a 10
+
+
+public class ParOuImpar {
 
 	public static void main(String[] args) {
 

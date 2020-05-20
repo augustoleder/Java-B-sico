@@ -1,5 +1,7 @@
 package diversos;
 
+//Consertar esse código
+
 public class ParImpar {
 	public static void main(String[] args) {
 		// Scanner entrada = new Scanner(System.in);
@@ -11,10 +13,10 @@ public class ParImpar {
 				j = j + 1;
 				System.out.println("O " + i + " é par e corresponde ao número " + j + "º" + " da sequência: ");
 			}
-//			if (i % 2 == 1) {
-//				k = j + 1;
-//				System.out.println("O " + i + " é impares e corresponde ao número " + k + "º" + " da sequência: ");
-//			}
+		if (i % 2 == 1) {
+			k = j + 1;
+			System.out.println("O " + i + " é impares e corresponde ao número " + k + "º" + " da sequência: ");
+		}
 		}
 		System.out.println("A quantidade de total números pares é:" + j);
 		System.out.printf("");
