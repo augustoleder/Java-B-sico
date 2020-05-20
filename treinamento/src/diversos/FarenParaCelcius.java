@@ -2,6 +2,8 @@ package diversos;
 
 import java.util.Scanner;
 
+//Converte apenas de Faherenheit para Celcius
+
 public class FarenParaCelcius {
 	
 	public static void main(String[] args) {

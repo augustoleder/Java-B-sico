@@ -2,6 +2,18 @@ package diversos;
 
 import java.util.Arrays;
 
+//Fazer por metodos colocando a quantidade de pagantes, o valor do jogo e
+	// premiações.
+	// colocar função randomica 
+	// talvez colocar botão pra jogador inserir os valores.
+	// Incrimentar metodo lista de ganhadores
+	// Colocar os dados em ordem crescente ( com esse NOVO FOR QUE COLOQUEI NÃO
+	// PRECISA MAIS FAZER ISSO)
+	// não permitir repetição
+	// posso fazer com um "treset" e "sorted" e acho que da pra fazer usando um
+	// outro "for"
+
+
 public class Loteria {
 
 	public static void main(String[] args) {
@@ -33,14 +45,5 @@ public class Loteria {
 		System.out.println("Você acetou " + contador + " número das loteria");
 	}
 
-	// Fazer por metodos colocando a quantidade de pagantes, o valor do jogo e
-	// premiações.
-	// colocar função randomica 
-	// talvez colocar botão pra jogador inserir os valores.
-	// Incrimentar metodo lista de ganhadores
-	// Colocar os dados em ordem crescente ( com esse NOVO FOR QUE COLOQUEI NÃO
-	// PRECISA MAIS FAZER ISSO)
-	// não permitir repetição
-	// posso fazer com um "treset" e "sorted" e acho que da pra fazer usando um
-	// outro "for"
+	
 }

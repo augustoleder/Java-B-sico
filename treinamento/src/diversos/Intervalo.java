@@ -13,7 +13,7 @@ public class Intervalo {
 			if (i % 2 == 0) {
 				multiplicacao = multiplicacao * i;
 				contPar = contPar + 1;
-				// System.out.println("" + i);
+				
 			} else {
 
 				somaImpar = somaImpar + i;

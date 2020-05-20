@@ -2,6 +2,9 @@ package diversos;
 
 import java.util.Scanner;
 
+//FALTOU COLOCAR A SÉRIE SEPARADA COM VIRGULAS.
+// NÃO ESTOU CONSEGUINDO RETIRAR A ÚLTIMA VIRGULA.
+
 public class Fibonacci {
 	public static void main(String[] args) {
 		int atual = 0;
@@ -22,7 +25,6 @@ public class Fibonacci {
 
 		entrada.close();
 
-		// FALTOU COLOCAR A SÉRIE SEPARADA COM VIRGULAS.
-		// NÃO ESTOU CONSEGUINDO RETIRAR A ÚLTIMA VIRGULA.
+		
 	}
 }

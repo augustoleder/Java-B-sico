@@ -13,15 +13,12 @@ public class Equacao2Grau {
 		Scanner entrada = new Scanner(System.in);
 			String valorA = entrada.next().replace(",", ".");
 			double a = Double.parseDouble(valorA);
-			entrada.close();	
 		System.out.println("Digite o coeficiente: "+"b");		
-		Scanner entrada2 = new Scanner(System.in);
-			String valorB = entrada2.next().replace(",", ".");
+			String valorB = entrada.next().replace(",", ".");
 			double b = Double.parseDouble(valorB);
 			
 		System.out.println("Digite o coeficiente: "+"c");
-		Scanner entrada3 = new Scanner(System.in);
-			String valorC = entrada3.next().replace(",", ".");
+			String valorC = entrada.next().replace(",", ".");
 			double c = Double.parseDouble(valorC);
 			
 		System.out.println("Essa é sua equação:"+a+"X²"+" + "+b+"X"+" + "+c);
@@ -37,7 +34,6 @@ public class Equacao2Grau {
 		System.out.println("O valor da raiz1 é: "+ raiz1);
 		System.out.println("O valor da raiz2 é: "+ raiz2);
  
- entrada2.close();		
- entrada3.close();
+ entrada.close();
 	}
 }
